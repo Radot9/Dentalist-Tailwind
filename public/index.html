@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dentalist</title>
+    <link rel="stylesheet" href="css/tailwind.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-ubuntu antialiased optimize-legibility">
+    <!--Nav-->
+    <div id="nav" class="mx-auto px-10 lg:px-20">
+      <nav class="flex w-full py-4 items-center">
+        <div class="flex h-8 gap-1 flex-1 lg:flex-grow-1">
+          <img
+            class="inline-block object-contain"
+            src="images/dentalist-logo.png"
+            alt="logo"
+          />
+          <p
+            class="inline-block font-ubuntu text-2xl font-bold tracking-tighter"
+          >
+            Dentalist.
+          </p>
+        </div>
+        <div class="flex-grow hidden lg:block">
+          <ul
+            class="flex flex-auto items-center justify-end gap-8 font-bold text-sm tracking-tighter text-body-blue"
+          >
+            <li><a href="">About Us</a></li>
+            <li><a href="">New Patient</a></li>
+            <li><a href="">Our Services</a></li>
+            <li><a href="">Contact Us</a></li>
+            <button
+              class="bg-purple font-bold text-sm text-white py-3 px-6 rounded-2xl hover:bg-purple-light hover:text-purple duration-300"
+            >
+              <a class="" href="">Book appointment</a>
+            </button>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--Hero-->
+    <div id="hero" class="mx-4 md:mx-6 lg:mx-8">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 place-items-center mx-auto bg-cover bg-center bg-no-repeat items-center rounded-3xl pt-8"
+        style="background-image: url(images/Hero-background.png)"
+      >
+        <div class="px-4 md:px-12 lg:px-24 text-center lg:text-left">
+          <h1
+            class="font-bold tracking-tighter text-4xl md:text-6xl mb-4 lg:mb-8 text-body-blue mt-7 lg:mt-0"
+          >
+            Entrust your smile to a professional
+          </h1>
+          <p
+            class="text-sm lg:text-lg font-medium tracking-tighter mb-12 text-body-blue opacity-70"
+          >
+            At Dentalist, we believe in the power of a confident smile. Our team
+            of dedicated professionals is here to provide you with top-quality
+            oral care and personalized treatments.
+          </p>
+          <div class="flex flex-col gap-4 lg:flex-row items-center">
+            <div>
+              <button
+                class="bg-purple text-white py-3 px-6 rounded-2xl hover:bg-purple-light hover:text-purple duration-300"
+              >
+                <a class="font-bold text-sm" href="">Book appointment</a>
+              </button>
+            </div>
+
+            <div class="flex gap-2 items-center text-left">
+              <span
+                ><i
+                  class="fa-solid fa-phone fa-shake"
+                  style="
+                    color: #583fbc;
+                    background: #fff;
+                    padding: 16px;
+                    border-radius: 16px;
+                  "
+                ></i
+              ></span>
+
+              <div>
+                <h6
+                  class="text-purple text-xs font-bold tracking-wider uppercase leading-tight"
+                >
+                  Dental 24H Emergency
+                </h6>
+                <span class="font-bold text-navy-blue">03 482 394 123</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <img src="images/girl-image.png" alt="" class="object-fill" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex max-w-4xl 2xl:max-w-7xl items-center flex-col gap-4 mx-auto my-16 pt-24" data-aos="fade-up" data-aos-duration="1000"
+    >
+      <h3
+        class="text-2xl md:text-4xl tracking-normal text-center mb-4 text-body-blue font-medium px-4 lg:px-0"
+      >
+        Dentalist is re-imagining what the dental experience can be and proudly
+        setting a new standard for patient care.
+      </h3>
+      <div class="w-20 h-1 bg-purple rounded mb-10"></div>
+    </div>
+
+    <!--Services-->
+    <section id="services-1" class="max-w-7xl mx-auto my-20 pt-24" data-aos="fade-up" data-aos-duration="1000">
+      <div class="mx-4 md:mx-8 lg:mx-12">
+        <h6
+          class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+        >
+          Services
+        </h6>
+        <div class="flex flex-col lg:flex-row gap-2 lg:gap-16 justify-between">
+          <h2
+            class="text-3xl lg:text-4xl text-body-blue font-bold tracking-tighter"
+          >
+            Feel amazing about your oral health
+          </h2>
+          <p class="text-body-blue opacity-60 text-lg tracking-tight">
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+        </div>
+      </div>
+
+      <!--Services Cards-->
+      <div
+        class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md: my-10 mx-4 md:mx-8 lg:mx-12 py-12" data-aos="fade-up" data-aos-duration="1500"
+      >
+        <div
+          id="denture"
+          class="card cursor-pointer justify-self-center text-center max-w-xs bg-white p-4 rounded-3xl border border-1 border-body-blue border-opacity-10 hover:border-opacity-0 hover:shadow-xl duration-300"
+        >
+          <div class="bg-baby-blue rounded-xl mb-4">
+            <img
+              class="w-16 mx-auto py-10"
+              src="images/Dentures-icon.png"
+              alt=""
+            />
+          </div>
+          <h4 class="font-bold mb-2">Dentures</h4>
+          <p
+            class="text-body-blue font-medium opacity-50 text-base tracking-tight"
+          >
+            Lorem ipsum is placeholder text commonly used in the graphic.
+          </p>
+        </div>
+
+        <div
+          id="implants"
+          class="card cursor-pointer justify-self-center text-center max-w-xs bg-white p-4 rounded-3xl border border-1 border-body-blue border-opacity-10 hover:border-opacity-0 hover:shadow-xl duration-300"
+        >
+          <div class="bg-purple-light rounded-xl mb-4">
+            <img
+              class="w-16 mx-auto py-10"
+              src="images/Implants-icon.png"
+              alt=""
+            />
+          </div>
+          <h4 class="font-bold mb-2">Implants</h4>
+          <p
+            class="text-body-blue font-medium opacity-50 text-base tracking-tight"
+          >
+            Lorem ipsum is placeholder text commonly used in the graphic.
+          </p>
+        </div>
+
+        <div
+          id="whitening"
+          class="card cursor-pointer justify-self-center text-center max-w-xs bg-white p-4 rounded-3xl border border-1 border-body-blue border-opacity-10 hover:border-opacity-0 hover:shadow-xl duration-300"
+        >
+          <div class="bg-pink rounded-xl mb-4">
+            <img
+              class="w-16 mx-auto py-10"
+              src="images/Whitening-icon.png"
+              alt=""
+            />
+          </div>
+          <h4 class="font-bold mb-2">Whitening</h4>
+          <p
+            class="text-body-blue font-medium opacity-50 text-base tracking-tight"
+          >
+            Lorem ipsum is placeholder text commonly used in the graphic.
+          </p>
+        </div>
+
+        <div
+          id="root-canal"
+          class="card cursor-pointer justify-self-center text-center max-w-xs bg-white p-4 rounded-3xl border border-1 border-body-blue border-opacity-10 hover:border-opacity-0 hover:shadow-xl duration-300"
+        >
+          <div class="bg-charm-pink rounded-xl mb-4">
+            <img
+              class="w-16 mx-auto py-10"
+              src="images/Root Canal-icon.png"
+              alt=""
+            />
+          </div>
+          <h4 class="font-bold mb-2">Root Canal</h4>
+          <p
+            class="text-body-blue font-medium opacity-50 text-base tracking-tight"
+          >
+            Lorem ipsum is placeholder text commonly used in the graphic.
+          </p>
+        </div>
+      </div>
+      <div class="flex">
+        <button
+          class="bg-purple-light text-purple py-3 px-6 rounded-2xl mx-auto hover:bg-purple hover:text-white duration-300"
+        >
+          <a class="text-sm font-bold" href="">View all service list</a
+          ><i
+            class="fa-duotone fa-circle-caret-right"
+            style="
+              --fa-primary-color: #eeecf8;
+              --fa-secondary-color: #583fbc;
+              --fa-secondary-opacity: 1;
+            "
+          ></i>
+        </button>
+      </div>
+    </section>
+
+    <!--Emergency Response-->
+    <section id="fast-appointment" class="my-40" data-aos="fade-up" data-aos-duration="1000">
+      <div
+        class="grid lg:grid-cols-2 mx-auto gap-8 max-w-8xl md: my-10 max-w-7xl items-center"
+      >
+        <div class="justify-self-center mx-4">
+          <img
+            src="images/patient-receiving-dental-treatment 1 Group.png"
+            alt=""
+            class=""
+          />
+        </div>
+        <div class="mx-4 md:mx-8 lg:mx-12">
+          <h6
+            class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+          >
+            Dental 24H Emergency
+          </h6>
+          <div class="">
+            <h2
+              class="text-3xl lg:text-4xl text-body-blue font-bold tracking-tighter mb-8"
+            >
+              Gentle, friendly treatment from our locally practice.
+            </h2>
+            <p class="text-body-blue opacity-60 text-lg tracking-tight mb-16">
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts and visual
+              mockups.
+            </p>
+          </div>
+          <button
+            class="bg-purple text-white py-3 px-6 rounded-2xl hover:bg-purple-light hover:text-purple duration-300"
+          >
+            <a class="font-bold text-sm" href="">Book appointment</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--Features-->
+    <div
+      id="features"
+      class="bg-purple-light mx-4 rounded-3xl py-24 px-4 md:px-12" 
+    >
+      <div class="max-w-4xl mx-auto py-24" data-aos="fade-up" data-aos-duration="1000">
+        <h6
+          class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+        >
+          Features
+        </h6>
+        <div class="">
+          <h2
+            class="text-3xl lg:text-4xl text-body-blue font-bold tracking-tighter mb-8"
+          >
+            Specialized care through experience
+          </h2>
+          <p class="text-body-blue opacity-60 text-lg tracking-tight mb-16">
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div
+            class="flex flex-col sm:flex-row items-start md:items-center justify-start gap-4"
+          >
+            <img
+              src="images/safety-icon.png"
+              alt=""
+              class="w-16 md:w-20 lg:w-24"
+            />
+            <div>
+              <h4 class="font-bold mb-2 text-lg">Safety first</h4>
+              <p
+                class="text-navy-blue font-medium opacity-50 text-sm 2xl:text-base"
+              >
+                We prioritize safety with health checks and more
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col sm:flex-row items-start md:items-center justify-start gap-4"
+          >
+            <img
+              src="images/Insurance accepted-icon.png"
+              alt=""
+              class="w-16 md:w-20 lg:w-24"
+            />
+            <div>
+              <h4 class="font-bold mb-2 text-lg">Insurance accepted</h4>
+              <p
+                class="text-navy-blue font-medium opacity-50 text-sm 2xl:text-base"
+              >
+                We’re in network with major insurers like Delta Dental, Aetna,
+                and Cigna.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col sm:flex-row items-start md:items-center justify-start gap-4"
+          >
+            <img
+              src="images/Full-service dentistry-icon.png"
+              alt=""
+              class="w-16 md:w-20 lg:w-24"
+            />
+            <div>
+              <h4 class="font-bold mb-2 text-lg">Full-service dentistry</h4>
+              <p
+                class="text-navy-blue font-medium opacity-50 text-sm 2xl:text-base"
+              >
+                Our clinic offer a full of dental service, from exams to
+                implants and veneers.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col sm:flex-row items-start md:items-center justify-start gap-4"
+          >
+            <img
+              src="images/No judgment ever-icon.png"
+              alt=""
+              class="w-16 md:w-20 lg:w-24"
+            />
+            <div>
+              <h4 class="font-bold mb-2 text-lg">No judgment ever</h4>
+              <p
+                class="text-navy-blue font-medium opacity-50 text-sm 2xl:text-base"
+              >
+                From floss bosses to sweet tooths, every mouth is welcome.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Experts-->
+    <section id="expert" class="my-40" data-aos="fade-up" data-aos-duration="1000">
+      <div
+        class="grid lg:grid-cols-2 mx-auto gap-8 max-w-8xl md: my-10 max-w-7xl items-center"
+      >
+        <div class="mx-4 md:mx-8 lg:mx-12">
+          <h6
+            class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+          >
+            EXPERTS IN DENTAL
+          </h6>
+          <div class="">
+            <h2
+              class="text-3xl lg:text-4xl text-body-blue font-bold tracking-tighter mb-8"
+            >
+              Top-notch dentistry, from Seattle's top dentists.
+            </h2>
+            <p class="text-body-blue opacity-60 text-lg tracking-tight mb-16">
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts
+            </p>
+          </div>
+          <div class="mb-4">
+            <div>
+              <span
+                ><i
+                  class="fa-solid fa-circle-check"
+                  style="color: #583fbc"
+                ></i></span
+              ><span
+                class="ml-4 text-lg font-medium text-navy-blue opacity-80 tracking-tight"
+                >Top quality dental team
+              </span>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div>
+              <span
+                ><i
+                  class="fa-solid fa-circle-check"
+                  style="color: #583fbc"
+                ></i></span
+              ><span
+                class="ml-4 text-lg font-medium text-navy-blue opacity-80 tracking-tight"
+                >State of the art dental services
+              </span>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div>
+              <span
+                ><i
+                  class="fa-solid fa-circle-check"
+                  style="color: #583fbc"
+                ></i></span
+              ><span
+                class="ml-4 text-lg font-medium text-navy-blue opacity-80 tracking-tight"
+                >Discount on all dental treatment
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="justify-self-center mx-4">
+          <img
+            src="images/young-asian-female-dentist-white-coat-posing-clinic-equipment 1-Group.png"
+            alt=""
+            class=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials-->
+    <div
+      id="testimonials"
+      class="mx-4 my-20 bg-baby-blue rounded-3xl py-24 md:px-12"
+    >
+      <div class="max-w-7xl mx-auto p-4" data-aos="fade-up" data-aos-duration="1000">
+        <h6
+          class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+        >
+          Testimonial
+        </h6>
+        <div class="flex flex-col lg:flex-row gap-2 lg:gap-16 justify-between">
+          <h2
+            class="text-3xl lg:text-4xl text-body-blue font-bold tracking-tighter"
+          >
+            What people have said about us
+          </h2>
+          <p class="text-body-blue text-lg tracking-tight font-medium">
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="grid lg:grid-cols-3 gap-8 p-4 my-12 max-w-7xl mx-auto" data-aos="fade-up" data-aos-duration="1500">
+          <div class="bg-white rounded-3xl p-10 text-center relative mt-10">
+            <img
+              src="images/Robert Fox.png"
+              alt=""
+              class="rounded-full absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ring-full ring-8 ring-baby-blue"
+            />
+            <h4 class="font-bold mb-2 text-lg mt-8">Robert Fox</h4>
+            <p class="opacity-50">
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts
+            </p>
+            <div class="star-rating mt-8">
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #c4c4c4"></i>
+            </div>
+          </div>
+          <div class="bg-white rounded-3xl p-10 text-center relative mt-10">
+            <img
+              src="images/Albert Flores.png"
+              alt=""
+              class="rounded-full absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ring-full ring-8 ring-baby-blue"
+            />
+            <h4 class="font-bold mb-2 text-lg mt-8">Albert Flores</h4>
+            <p class="opacity-50">
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts
+            </p>
+            <div class="star-rating mt-8">
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #c4c4c4"></i>
+            </div>
+          </div>
+          <div class="bg-white rounded-3xl p-10 text-center relative mt-10">
+            <img
+              src="images/Bessie Cooper.png"
+              alt=""
+              class="rounded-full absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ring-full ring-8 ring-baby-blue"
+            />
+            <h4 class="font-bold mb-2 text-lg mt-8">Bessie Cooper</h4>
+            <p class="opacity-50">
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and publishing industries for previewing layouts
+            </p>
+            <div class="star-rating mt-8">
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #ff8c4b"></i>
+              <i class="fa-solid fa-star" style="color: #c4c4c4"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Blog-->
+
+    <div id="blog" class="mb-48">
+      <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h6
+          class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+        >
+          Blog
+        </h6>
+        <h2
+          class="text-3xl lg:text-4xl text-body-blue font-bold tracking-tighter"
+        >
+          Stay updated with our latest news
+        </h2>
+      </div>
+      <div class="max-w-7xl grid lg:grid-cols-3 gap-8 my-24 mx-auto px-4" data-aos="fade-up" data-aos-duration="1500">
+        <div class="blog-card">
+          <div
+            class="cursor-pointer mx-auto justify-self-center bg-white p-4 rounded-3xl border border-1 border-body-blue border-opacity-10 hover:border-opacity-0 hover:shadow-xl duration-300"
+          >
+            <div class="bg-pink rounded-xl mb-4 overflow-hidden relative">
+              <div
+                class="w-[60px] h-[60px] absolute bg-white rounded-2xl px-4 py-2 text-center top-2 left-2"
+              >
+                <p class="font-bold text-lg text-navy-blue leading-none">23</p>
+                <p
+                  class="text-sm font-bold opacity-60 tracking-tight text-navy-blue"
+                >
+                  Jan
+                </p>
+              </div>
+              <img
+                class="w-full max-h-64 object-cover"
+                src="images/Technology.png"
+                alt=""
+              />
+            </div>
+            <h6
+              class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+            >
+              Technology
+            </h6>
+            <h4 class="font-bold mb-3">
+              New Technology Make for Dental Operation
+            </h4>
+            <p
+              class="text-body-blue font-medium opacity-50 text-base tracking-tight"
+            >
+              Lorem ipsum is placeholder text commonly used in the graphic.
+            </p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div
+            class="cursor-pointer mx-auto justify-self-center bg-white p-4 rounded-3xl border border-1 border-body-blue border-opacity-10 hover:border-opacity-0 hover:shadow-xl duration-300"
+          >
+            <div class="bg-pink rounded-xl mb-4 overflow-hidden relative">
+              <div
+                class="w-[60px] h-[60px] absolute bg-white rounded-2xl px-4 py-2 text-center top-2 left-2"
+              >
+                <p class="font-bold text-lg text-navy-blue leading-none">23</p>
+                <p
+                  class="text-sm font-bold opacity-60 tracking-tight text-navy-blue"
+                >
+                  Jan
+                </p>
+              </div>
+              <img
+                class="w-full max-h-64 object-cover"
+                src="images/Happy-child.png"
+                alt=""
+              />
+            </div>
+            <h6
+              class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+            >
+              DENTAL
+            </h6>
+            <h4 class="font-bold mb-3">
+              Regular Dental care make Your Smile Brighter
+            </h4>
+            <p
+              class="text-body-blue font-medium opacity-50 text-base tracking-tight"
+            >
+              Lorem ipsum is placeholder text commonly used in the graphic.
+            </p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div
+            class="cursor-pointer mx-auto justify-self-center bg-white p-4 rounded-3xl border border-1 border-body-blue border-opacity-10 hover:border-opacity-0 hover:shadow-xl duration-300"
+          >
+            <div class="bg-pink rounded-xl mb-4 overflow-hidden relative">
+              <div
+                class="w-[60px] h-[60px] absolute bg-white rounded-2xl px-4 py-2 text-center top-2 left-2"
+              >
+                <p class="font-bold text-lg text-navy-blue leading-none">23</p>
+                <p
+                  class="text-sm font-bold opacity-60 tracking-tight text-navy-blue"
+                >
+                  Jan
+                </p>
+              </div>
+              <img
+                class="w-full max-h-64 object-cover"
+                src="images/bamboo-toothbrush.png"
+                alt=""
+              />
+            </div>
+            <h6
+              class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+            >
+              HYGIENE
+            </h6>
+            <h4 class="font-bold mb-3">
+              Dental Hygiene for All Age to Make Smile
+            </h4>
+            <p
+              class="text-body-blue font-medium opacity-50 text-base tracking-tight"
+            >
+              Lorem ipsum is placeholder text commonly used in the graphic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Book Appointment-->
+
+    <div
+      class="grid lg:grid-cols-2 max-w-7xl mx-auto gap-12 2xl:gap-28 px-4 my-12" data-aos="fade-up" data-aos-duration="1000"
+    >
+      <div class="map-container rounded-3xl overflow-hidden">
+        <img
+          src="images/snazzy-image (2) 1.png"
+          alt=""
+          class="w-full h-full object-fill"
+        />
+      </div>
+      <div class="contact-container">
+        <div class="mb-16">
+          <h6
+            class="text-purple text-xs font-bold tracking-wider uppercase leading-tight mb-4"
+          >
+            Book Appointment
+          </h6>
+          <h2
+            class="text-3xl lg:text-4xl text-body-blue font-bold tracking-tighter mb-8"
+          >
+            Care at Dentalist is pleasure
+          </h2>
+          <p
+            class="text-body-blue font-medium opacity-60 text-base tracking-tight"
+          >
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual
+          </p>
+        </div>
+
+        <div class="grid xl:grid-cols-2 gap-8 mb-8">
+          <div>
+            <label
+              class="block text-xs text-body-blue opacity-60 uppercase tracking-wider font-bold mb-2"
+              for="Name"
+              >Name</label
+            >
+            <input
+              class="w-full font-medium text-sm tracking-tight text-body-blue opacity-60 border border-1 rounded-2xl p-6 focus:outline-none focus:ring focus:border-purple"
+              type="text"
+              name=""
+              id="name"
+              placeholder="Enter your name..."
+            />
+          </div>
+          <div>
+            <label
+              class="block text-xs text-body-blue opacity-60 uppercase tracking-wider font-bold mb-2"
+              for="email"
+              >Email Address</label
+            >
+            <input
+              class="w-full font-medium text-sm tracking-tight text-body-blue opacity-60 border border-1 rounded-2xl p-6 focus:outline-none focus:ring focus:border-purple"
+              type="email"
+              name=""
+              id="name"
+              placeholder="Your email address..."
+            />
+          </div>
+          <div>
+            <label
+              class="block text-xs text-body-blue opacity-60 uppercase tracking-wider font-bold mb-2"
+              for="service"
+              >Service</label
+            >
+            <select
+              class="w-full font-bold text-sm tracking-tight text-body-blue opacity-80 border border-1 rounded-2xl p-6 focus:outline-none focus:ring focus:border-purple"
+              name="service"
+              id="service"
+            >
+              <option value="teeth-whitening">Teeth Whitening</option>
+              <option value="gum-disease-treatment">
+                Gum Disease Treatment
+              </option>
+              <option value="dental-implant">Dental Implants</option>
+              <option value="dentures-and-bridges">Dentures and Bridges</option>
+            </select>
+          </div>
+          <div>
+            <label
+              class="block text-xs text-body-blue opacity-60 uppercase tracking-wider font-bold mb-2"
+              for="department"
+              >Department</label
+            >
+            <select
+              class="w-full font-bold text-sm tracking-tight text-body-blue opacity-60 border border-1 rounded-2xl p-6 focus:outline-none focus:ring focus:border-purple"
+              name="department"
+              id="department"
+            >
+              <option value="sales">Sales Department</option>
+              <option value="admin">Admin Department</option>
+              <option value="customer-service">Customers Service</option>
+            </select>
+          </div>
+        </div>
+        <div class="mb-16">
+          <label
+            class="block text-xs text-body-blue opacity-60 uppercase tracking-wider font-medium mb-2"
+            for="message"
+            >Message</label
+          >
+          <textarea
+            placeholder="Enter your message..."
+            rows="10"
+            class="w-full font-medium text-sm tracking-tight text-body-blue opacity-60 border border-1 rounded-2xl px-4 py-2 resize-none focus:outline-none focus:ring focus:border-purple"
+            required
+          ></textarea>
+        </div>
+        <div class="grid xl:grid-cols-2 gap-8 mb-8">
+          <div class="flex gap-3 items-center text-left justify-center">
+            <span
+              class="bg-purple-light p-2 rounded-3xl border-2 border-bg-purple"
+              ><i
+                class="fa-solid fa-phone fa-shake opacity-100"
+                style="
+                  color: #fff;
+                  background: #583fbc;
+                  padding: 16px;
+                  border-radius: 16px;
+                "
+              ></i
+            ></span>
+
+            <div>
+              <h6
+                class="text-purple text-xs font-bold tracking-wider uppercase leading-tight"
+              >
+                Dental 24H Emergency
+              </h6>
+              <span class="font-bold text-navy-blue">03 482 394 123</span>
+            </div>
+          </div>
+          <div>
+            <button
+              class="w-full bg-purple text-white py-4 px-6 rounded-2xl hover:bg-purple-light hover:text-purple duration-300"
+            >
+              <a class="font-bold text-sm" href="">Book appointment</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4174ec322e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+    
+  </body>
+</html>
